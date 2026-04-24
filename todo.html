@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>my.to.do.list.com.zm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle" id="themeToggleBtn">
+        <spa>🌕</spa><span>Dark</span>
+    </div>
+
+    <div class="card todo-container">
+        <div class="header-section">
+        <h1>MY TO DO LIST</h1>
+        <div class="welcome-message" id="welcomeMsg"></div>
+     </div>
+    
+    <div class="add-task-section">
+        <input type="text" id="taskInput" placeholder="What needs to be done? 📝" autocomplete="off">
+        <button id="addTaskBtn">+ Add Task</button>
+    </div>
+
+    <div class="task-list" id="tasksList">
+
+        <div class="empty-state">✨No tasks yet. Add your first task about!</div>
+    </div>
+
+    <div class="task-stats" id="taskStats">
+      <span>0 tasks</span><span id="completedCount">0 completed</span>
+    </div>
+</div>
+<script src="todo.js"></script>
+</body>
+</html>
