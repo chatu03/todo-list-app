@@ -325,3 +325,11 @@ body.dark .footer-social a {
     font-size: 11px;
     opacity: 0.6;
 }
+/* Additional dark mode fixes for footer */
+body.dark .footer-social span {
+    color: #f1f5f9;
+}
+
+body.dark .footer-copyright {
+    color: #cbd5e1;
+}
